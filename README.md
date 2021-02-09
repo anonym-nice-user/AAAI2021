@@ -14,8 +14,14 @@ More detailed description of the datasets could be found in corresponding folder
 ### /res/
 This folder contains the details of our hyperparameter search, summary of results that includes ECE figures, F_1, F_01, F_10, ECE score, as well as Precision and Recall.
 
-### /scr/transformers/
+### /src/transformers/
 This folder contains the implementation of DistilBert model for Soft/Hard/sHard/Label smoothing training
+The average runtime is up to 4h - 9h for a run, depending on the dataset size.
 
-### /scr/nnets/
+### /src/nnets/
 This folder contains the implementation of simple neural network for Soft/Hard/sHard/Label smoothing training
+The average runtime is up to 30 mins - 1h for a run.
+
+### /src/lstm/
+This folder contains the implementation of bidirectional LSTM  for Soft/Hard/sHard/Label smoothing training
+The average runtime is up to 1h - 4h for a run.
