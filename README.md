@@ -25,3 +25,6 @@ The average runtime is up to 30 mins - 1h for a run.
 ### /src/lstm/
 This folder contains the implementation of bidirectional LSTM  for Soft/Hard/sHard/Label smoothing training
 The average runtime is up to 1h - 4h for a run.
+
+### Computing infrastructure used
+We used gpu P100 and we tried on 1 gpu only. MLP was trained on CPU. 
